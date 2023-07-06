@@ -1,0 +1,177 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    top: 0%;
+    position: sticky;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+margin: 30px 0px;
+}
+.navbar ul li{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 20px ;
+    color: white;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow:0 0 10px white;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#home::before{
+    content: "";
+    position: absolute;
+bottom: 30px;
+    right: 0;
+    background: url('imw.jpg ') no-repeat center center/cover;
+    height: 554px;
+    width:100%;
+    z-index: -1;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top:30%;
+    right: 10%;
+
+}
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: .6s ease;
+}
+.btn:hover
+{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+
+
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+#pic{
+    display:flex;
+}
+#pic img{
+   
+    height: 600px;
+    width: 300px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(0,0,0,0.9);
+    color: white;
+
+}
+.gallary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+
+}
+.gallary img{
+    width: 360px;
+    height: 240px;
+    margin: 10px;
+}
+#skills{
+    display: flex;
+    flex-direction: column;
+    padding: 20%;
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    }
+    #contact{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        background-color: rgba(0,0,0,0.9);
+        color: white;
+        padding: 20px;
+    }
+    .form{
+display: flex;
+flex-direction: column;
+box-sizing:border-box ;
+margin: 20px 0px;
+align-items: center;
+    }
+    .input{
+        padding: 12px;
+        margin: 15px;
+        width:30%;
+        border:none;
+        outline:none;
+    }
+    #msg{
+        width: 20%;
+        padding: 10px;
+        margin: 15px;
+        border:none;
+        outline:none;
+    }
+    #send{
+        padding: 10px;
+        width:10%;
+        margin:40px;
+        border:none;
+        outline: none;
+    }
+    #send:hover{
+        cursor:pointer;
+        box-shadow: 0 0 10px white;
+    }
